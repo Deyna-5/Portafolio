@@ -1,0 +1,84 @@
+nav {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  padding: 15px 0px;
+}
+
+#navbar-div {
+  padding-bottom: 15px;
+  border-bottom: gray 1px solid;
+}
+
+.navbarsh {
+  display: inline;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  position: relative;
+  left: 270px;
+}
+
+.link:hover {
+  color: orange;
+}
+
+#header {
+  height: 600px;
+  width: 100%;
+  background-image: url(https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -100;
+  position: absolute;
+}
+
+#titles {
+  position: absolute;
+  padding-top: 230px;
+  background: rgba(61, 61, 61, 0.47);
+  height: 600px;
+  width: 100%;
+}
+
+#title1 {
+  text-align: center;
+  color: white;
+  letter-spacing: 5px;
+  font-weight: bold;
+}
+
+#title2 {
+  text-align: center;
+  color: white;
+  letter-spacing: 5px;
+  font-weight: lighter;
+}
+
+#developer {
+  font-weight: normal;
+}
+
+#developer:hover {
+  font-size: 50px;
+  -webkit-animation: 5s change_color 1;
+}
+
+@-webkit-keyframes change_color {
+  20% {
+    color: aquamarine;
+  }
+  40% {
+    color: mediumorchid;
+  }
+  60% {
+    color: lightcoral;
+  }
+  80% {
+    color: orange;
+  }
+}
+/*# sourceMappingURL=home.css.map */
